@@ -8,6 +8,8 @@ import { EventosES6, EventosES7, MasEventos } from "./components/Eventos";
 import Padre from "./components/PadresHijos";
 
 import CicloVida from "./components/CicloVida";
+
+import AjaxApi from "./components/AjaxApi";
 function App() {
   return (
     <div className="App">
@@ -41,6 +43,8 @@ function App() {
         <Padre />
         <hr />
         <CicloVida />
+        <hr />
+        <AjaxApi />
       </header>
     </div>
   );
